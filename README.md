@@ -43,5 +43,5 @@ If you have enough Sepolia Testnet Eth, I have already deployed and verified the
 
  ### Note
   • To imitate the mechanism of a candle auction `randomEndTime` is defined which is calculated using block number and difficulty.  
-  • If a bidder forgets to withdraw the bid once outbid will be automatically transfered upon `auctionEnd` function call.  
-  • `getRandomEndTime` can only be called by the auction owner. its a function which explicitly tells the `RandomEndTime` value.
+  • If a bidder forgets to withdraw the bid, Once outbid will be automatically transfered upon `auctionEnd` function call.  
+  • `getRandomEndTime` can only be called by the auction owner. Its a function which explicitly tells the `RandomEndTime` value.
