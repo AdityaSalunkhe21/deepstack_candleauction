@@ -20,7 +20,7 @@ If you have enough Sepolia Testnet Eth, I have already deployed and verified the
  2. Click the "Deploy" button to deploy the contract.
 
  ### 4. Interact with the Contract
- After deploying the contract, you can interact with it using the provided functions:
+    After deploying the contract, you can interact with it using the provided functions:
  1. Start Auction: Call the startAuction function with the desired bidding time (in seconds).
  2. Place Bid: Use the bid function to place a bid. Ensure you send some Ether with the transaction.
  3. Withdraw: If you are not the highest bidder, you can withdraw your bid using the withdraw function.
