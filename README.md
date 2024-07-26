@@ -39,7 +39,7 @@ If you have enough Sepolia Testnet Eth, I have already deployed and verified the
   • If your bid is outbid, you can withdraw your Ether by calling the `withdraw` function.
   
  4. End the Auction:  
-  • After the bidding time has passed, click the "auctionEnd" button to end the auction and transfer the highest bid to the auctioneer.
+  • After the bidding time has passed, click the `auctionEnd` button to end the auction and transfer the highest bid to the auctioneer.
 
  ### Note
   • To imitate the mechanism of a candle auction `randomEndTime` is defined which is calculated using block number and difficulty.  
