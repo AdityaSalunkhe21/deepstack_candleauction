@@ -3,7 +3,7 @@ async function main() {
     const CandleAuction = await ethers.getContractFactory("CandleAuction");
     const candleAuction = await CandleAuction.deploy();
     await candleAuction.waitForDeployment();
-    console.log("RoboPunksNFT deployed to:",await candleAuction.getAddress());
+    console.log("CandleAuction deployed to:",await candleAuction.getAddress());
   }
   
   main()
